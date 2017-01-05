@@ -1,0 +1,36 @@
+{
+    "name": "eslint-config-yundun",
+    "version": "1.0.0",
+    "description": "YundunFE's JS ESLint config",
+    "main": "index.js",
+    "scripts": {
+        "prelint": "editorconfig-tools check * rules/* test/*",
+        "lint": "eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/czyin/eslint-config-yundun.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "yundun",
+        "yundunfe",
+        "javascript",
+        "styleguide"
+    ],
+    "author": "Yin Chengzhi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/czyin/eslint-config-yundun/issues"
+    },
+    "homepage": "https://github.com/czyin/eslint-config-yundun#readme",
+    "engines": {
+        "node": ">= 4"
+    },
+    "devDependencies": {
+        "editorconfig-tools": "^0.1.1",
+        "eslint": "^3.12.2"
+    }
+}
