@@ -29,6 +29,10 @@
   "engines": {
     "node": ">= 4"
   },
+  "peerDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-plugin-import": "^2.2.0"
+  },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.12.2"
